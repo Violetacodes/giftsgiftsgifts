@@ -23,7 +23,7 @@ setGifts(newGifts)
            <h2>{id} - {gifty}</h2>
            </div>
            <div className="container">
-           <img width="300px" alt="picture" src={image} />
+           <img alt="presents" width="300px" src={image} />
            </div>
            <div className="container">
            <button onClick={() => removeGift(id)}>Remove</button>
